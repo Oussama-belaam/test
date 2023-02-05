@@ -1,0 +1,84 @@
+/*the main container of the header*/
+.main-container{
+    display: flex;
+    background-image: url("./Test Assets/Photos/Header 1.png");
+    background-size: cover ;
+    background-repeat:no-repeat ;
+    height: 900px;
+    width:1440px;
+}
+/*the syne font importation*/
+@font-face {
+    font-family: syne;
+    src: url(./Syne/static/Syne-Regular.ttf);
+}
+/*the Dm sans font importation*/
+@font-face {
+    font-family: DM sans;
+    src: url(./DM_Sans/DMSans-Regular.ttf);
+}
+/* the font of the p balise */
+p{
+    font-family: DM sans;
+}
+/* the font of the h1 balise */
+h1{
+    font-family: syne;
+    margin: 0;
+    color: #fff;
+}
+/* the font of the h2,h4,h5 balise */
+h2,h4,h5{
+    font-family: syne;
+}
+/* the font and size of the h3 balise */
+h3{
+    font-family: syne;
+    font-size: 1rem;
+}
+/*the container of the lower left image*/
+.bottom-container{
+    border-top-left-radius:60%;
+    border-top-right-radius:60%;
+    background-image: url("./Test Assets/Photos/Header 3.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 250px;
+    width:160px;
+    margin-top: 563px;
+    padding: 0.2em;
+
+}
+/*the container of the right image*/
+.right-container{
+    border-top-left-radius:60%;
+    border-top-right-radius:60%;
+    background-image: url("./Test Assets/Photos/Header 2.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 430px;
+    width:255px;
+    margin-left: 88px;
+    margin-top: 340px;
+    padding: 0.2em;
+  
+}
+/*the css of the top advertisement*/
+.title-container{
+    height: 261px;
+    width: 600px;
+    margin-top: 235px;
+    color: #291515;
+}
+/*the css of the left advertisement*/
+.title1-container{
+    width:200px;
+    margin-top:  606px;
+    color: #fff;
+}
+/*the css of the right advertisement*/
+.title2-container{
+    width:200px;
+    margin-top:  500px;
+    color: #fff;
+}

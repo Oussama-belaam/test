@@ -1,0 +1,13 @@
+/*the ad component container*/
+.ad{
+    color: white;
+    background-image: url("./Test Assets/Photos/Quiz Section.png");
+    background-size: cover ;
+    background-repeat:no-repeat ;
+    height: 700px;
+    width:1440px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+}

@@ -1,0 +1,19 @@
+/*the css of the instructions container*/
+.instructions{
+    margin-left:120px;
+    color: white;
+    background-image: url("./Test Assets/Photos/Plant care.png");
+    background-size: cover ;
+    background-repeat:no-repeat ;
+    height: 500px;
+    width:1110px;
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    flex-direction:column;
+}
+/*the css of the content of the instruction component */
+.t{
+   margin-left: 600px;
+   margin-bottom: 50px;
+}

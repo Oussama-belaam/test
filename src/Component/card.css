@@ -1,0 +1,32 @@
+/*the main container of the card component*/
+.container{
+    display: flex;
+    background-color:#F2F2F2;
+    background-size: cover ;
+    background-repeat:no-repeat ;
+    height: 650px;
+    width:1440px;
+}
+/*the css of the logo */
+.img{
+    margin-top: 100px;
+    margin-left:200px ;
+    height: 420px;
+    width:  420px;
+  }
+  /*h1 color*/
+.h1{
+    color: black;
+}
+/*p color*/
+p{
+    color:#999999;
+}
+/*the description container*/
+.description-container{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    width: 516px;
+    flex-direction:column;
+}

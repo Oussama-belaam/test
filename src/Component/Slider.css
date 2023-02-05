@@ -1,0 +1,36 @@
+/*the main container for the slider component*/
+.slider-container {
+  display:flex;
+  flex-direction:row;
+    width: 1440px;
+    height: 400px;
+    position: relative;
+  }
+  /*the container of the images*/ 
+  .slider-images-container {
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+  }
+  /*the css for the image*/
+  .slider-image {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  /*the css for the arrow*/
+  .slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+  }
+  /*the position of the left arrow*/
+  .slider-left-arrow {
+    left: 0;
+  }
+  /*the position of the right arrow*/
+  .slider-right-arrow {
+    right: 0;
+  }

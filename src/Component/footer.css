@@ -1,0 +1,85 @@
+
+*{
+    box-sizing: border-box;
+}
+/*the main container for the footer*/
+.footer-container {
+    width: 1440px;
+    background-color:#252525;
+    padding: 4rem 0 4rem 0;
+  }
+  /*logo size*/
+.img1{
+    height: 32px;
+    width:  64px;
+  }
+  /* the css of the footer*/
+.footer{
+    width: 1440px;
+    height: 360px;
+    background-color: #252525;
+    color: #fff;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+/*the css of the footer heading*/
+.footer-heading {
+    display: flex;
+    flex-direction:column;
+    align-items:start;
+    margin-right: 4rem;
+}
+/*the css of the h2 balise of the footer heading*/
+.footer-heading h2{
+    margin-bottom: 2rem;
+}
+/*the css of the a balise of the footer heading*/
+.footer-heading a{
+    color: #999999;
+    margin-bottom: 0.5rem;
+    margin-left: 20px;
+    text-decoration: none;
+}
+/*the css of the a balise of the footer heading when u hover with the mouse */
+.footer-heading a:hover {
+    color: #fff;
+    transition: 0.3s ease-out;
+}
+/*the email input css*/
+.footer-email-form {
+    display: flex;
+    flex-direction:column;
+    align-items:start;
+
+    margin-bottom: 2rem;
+}
+/*the container of the footer email */
+#footer-email{
+
+    width :349px;
+    height: 48px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+    align-items:flex-start
+}
+
+/*the container of the footer email btn */
+#footer-email-btn{
+    height: 40px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: #fff;
+   
+}
+/*the container of the footer email btn when u hover with the mouse */
+#footer-email-btn:hover{
+    cursor: pointer;
+    background-color: rgb(208, 228, 235);
+    transition: all 0.4s ease-out;
+}
